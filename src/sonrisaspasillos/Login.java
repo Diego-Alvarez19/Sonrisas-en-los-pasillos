@@ -58,7 +58,7 @@ public class Login extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(90, 213, 198));
 
-        jPanel3.setBackground(new java.awt.Color(90, 213, 198));
+        jPanel3.setBackground(new java.awt.Color(0, 204, 204));
         jPanel3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255), 5, true));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/perfil.png"))); // NOI18N
@@ -136,16 +136,16 @@ public class Login extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(132, Short.MAX_VALUE)
+                .addContainerGap(376, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(149, Short.MAX_VALUE))
+                .addGap(326, 326, 326))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(45, 45, 45)
+                .addGap(92, 92, 92)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(38, 38, 38))
+                .addContainerGap(210, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -189,8 +189,16 @@ public class Login extends javax.swing.JFrame {
                 this.dispose();
                 // Abre el nuevo JFrame MenuBeneficiario
                 MenuCajero menucajero = new MenuCajero();
+                menucajero.setSize(1100, 730);  // Establece las dimensiones fijas (ancho x alto) que desees
+                menucajero.setLocationRelativeTo(null); 
                 menucajero.setVisible(true);
-            } else {
+            } else if(rol.equals("recursos_humanos")) {
+                 System.out.println("Bienvenido Recursos humanos");
+                 this.dispose();
+                MenuRecuroshumanos menurecuros = new MenuRecuroshumanos();
+                menurecuros.setSize(1100, 730);  // Establece las dimensiones fijas (ancho x alto) que desees
+                menurecuros.setLocationRelativeTo(null); 
+                menurecuros.setVisible(true);
                 // Otros roles...
             }
         } else {
@@ -234,7 +242,11 @@ public class Login extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 
-                new Login().setVisible(true);
+                //new Login().setVisible(true);
+                 Login inicio = new Login();
+                inicio.setSize(1100, 700);  // Establece las dimensiones fijas (ancho x alto) que desees
+                inicio.setLocationRelativeTo(null);  // Centra la ventana en la pantalla
+                inicio.setVisible(true);
                 
             }
         });

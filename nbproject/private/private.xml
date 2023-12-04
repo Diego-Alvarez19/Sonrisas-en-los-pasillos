@@ -3,17 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/Login.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/MenuAlmacenista.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/Autenticacion.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/FinalizarCompra.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/MenuDevolucion.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/Conexion.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/MenuTransacciones.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/MenuCajero.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/MenuVenta.java</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/.git/config</file>
-            <file>file:/C:/Users/die_a/OneDrive/Documentos/NetBeansProjects/SonrisasPasillos/src/sonrisaspasillos/SonrisasPasillos.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/MenuCajero.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/MenuDevolucion.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/Login.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/MenuTransacciones.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/MenuRecuroshumanos.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/MenuVenta.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/Autenticacion.java</file>
+            <file>file:/C:/Users/PC/OneDrive/Documentos/NetBeansProjects/Sonrisas-en-los-pasillos/src/sonrisaspasillos/MenuRegistrarEmpleado.java</file>
         </group>
     </open-files>
 </project-private>
