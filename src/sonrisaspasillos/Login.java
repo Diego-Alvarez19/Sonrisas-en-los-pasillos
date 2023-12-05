@@ -200,6 +200,13 @@ public class Login extends javax.swing.JFrame {
                 menurecuros.setLocationRelativeTo(null); 
                 menurecuros.setVisible(true);
                 // Otros roles...
+            } else if (rol.equals("inventarista")){
+                 System.out.println("Bienvenido Inventarista");
+                 this.dispose();
+                MenuInventarista menuinventarista = new MenuInventarista();
+                menuinventarista.setSize(1100, 730);  // Establece las dimensiones fijas (ancho x alto) que desees
+                menuinventarista.setLocationRelativeTo(null); 
+                menuinventarista.setVisible(true);
             }
         } else {
             System.out.println("Autenticación fallida. Usuario o contraseña incorrectos.");
